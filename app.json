@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index8/index8",
+    "pages/index7/index7",
+    "pages/index6/index6",
+    "pages/index5/index5",
+    "pages/index4/index4",
+    "pages/index3/index3",
+    "pages/index2/index2",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#ddd",
+    "navigationBarTitleText": "全局-首页",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icons/xiangxian.png",
+      "selectedIconPath": "icons/xiangxian_s.png"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "日志",
+      "iconPath": "icons/xiangpi.png",
+      "selectedIconPath": "icons/xiangpi2.png"
+    }],
+    "color": "#000",
+    "selectedColor": "#ff0000",
+    "backgroundColor": "#ddd",
+    "borderStyle": "white",
+    "position": "bottom"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

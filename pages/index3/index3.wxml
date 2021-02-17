@@ -1,0 +1,10 @@
+<!--pages/index3/index3.wxml-->
+<view>
+  <view>hello world</view>
+  <view>{{message}}</view>
+  <view>{{number}}</view>
+  <view>person.name: {{person.name}}</view>
+  <view>person.age: {{person.age}}</view>
+  <view data-id='id-{{title}}'>title</view>
+  <view><checkbox checked='{{true}}' /></view>
+</view>

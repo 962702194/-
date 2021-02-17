@@ -1,0 +1,14 @@
+<!--pages/index4/index4.wxml-->
+<view>  
+  <checkbox checked="{{isChecked?true:false}}" />
+  <view>
+    {{a*b}} + {{c}} + 10
+  </view>
+  <view>
+    {{d+e+'zxczxc'}}
+  </view>
+  <view wx:if="{{length>1}}">{{length}}</view>
+  <view>
+    <checkbox checked="{{length>=10}}" />
+  </view>
+</view>

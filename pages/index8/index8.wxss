@@ -1,0 +1,5 @@
+/* pages/index8/index8.wxss */
+.box{
+  color: green;
+  background-color: yellowgreen
+}

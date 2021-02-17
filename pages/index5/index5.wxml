@@ -1,0 +1,13 @@
+<!--pages/index5/index5.wxml-->
+<view>
+  <view wx:for='{{array}}' wx:key='{{index}}'>
+    {{index}}:{{item}}
+  </view>
+  <view wx:for='{{person}}' wx:key='{{key}}' wx:for-index='key' wx:for-item='value'>
+    {{key}}:{{value}}
+  </view>
+
+  <block wx:for='{{[1,2,3,4]}}' wx:key='{{key}}' wx:for-index='key' wx:for-item='value'>
+    {{key}}:{{value}}
+  </block>
+</view>
